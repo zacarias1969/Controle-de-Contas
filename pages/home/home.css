@@ -1,0 +1,49 @@
+body {
+    height: 100vh;
+}
+
+header {
+    text-align: right;
+    background: rgb(45, 211, 111);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+
+main {
+    margin-top: 70px;
+}
+
+header button {
+    width: auto;
+}
+
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+ol li {
+    cursor: pointer;
+    background: white;
+    padding: 8px 16px;
+    border-bottom: 1px solid gray;
+}
+
+ol li.expense {
+    border-left: 10px solid red;
+}
+
+ol li.income {
+    border-left: 10px solid green;
+}
+
+ol li:hover {
+    opacity: 0.8;
+}
+
+p {
+    margin: 4px 0;
+}
